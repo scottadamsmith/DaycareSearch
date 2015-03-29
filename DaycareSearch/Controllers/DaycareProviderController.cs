@@ -9,7 +9,6 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
-using mvc = System.Web.Mvc;
 using Model = DaycareSearch.Models;
 using System.Web;
 
