@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaycareSearch", "DaycareSearch\DaycareSearch.csproj", "{F9D6CB2C-7DFF-4442-8690-012356E63992}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site", "Site\Site.csproj", "{0B7C5ECB-2E2B-4600-A33E-26C0B2700CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site.Tests", "Site.Tests\Site.Tests.csproj", "{55896EB2-AEA3-4350-AAEE-9BC77E85D10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{5E90C7F1-69EB-4C2F-8E0E-0A677431A179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{321C026B-D7F7-4F81-8B62-7CE2B59FB96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{ED06EFA4-BA48-4B9A-8CB8-EC2577A2F392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{F9D6CB2C-7DFF-4442-8690-012356E63992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +21,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B7C5ECB-2E2B-4600-A33E-26C0B2700CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7C5ECB-2E2B-4600-A33E-26C0B2700CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7C5ECB-2E2B-4600-A33E-26C0B2700CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7C5ECB-2E2B-4600-A33E-26C0B2700CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55896EB2-AEA3-4350-AAEE-9BC77E85D10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55896EB2-AEA3-4350-AAEE-9BC77E85D10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55896EB2-AEA3-4350-AAEE-9BC77E85D10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55896EB2-AEA3-4350-AAEE-9BC77E85D10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E90C7F1-69EB-4C2F-8E0E-0A677431A179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E90C7F1-69EB-4C2F-8E0E-0A677431A179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E90C7F1-69EB-4C2F-8E0E-0A677431A179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E90C7F1-69EB-4C2F-8E0E-0A677431A179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321C026B-D7F7-4F81-8B62-7CE2B59FB96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321C026B-D7F7-4F81-8B62-7CE2B59FB96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321C026B-D7F7-4F81-8B62-7CE2B59FB96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321C026B-D7F7-4F81-8B62-7CE2B59FB96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED06EFA4-BA48-4B9A-8CB8-EC2577A2F392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED06EFA4-BA48-4B9A-8CB8-EC2577A2F392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED06EFA4-BA48-4B9A-8CB8-EC2577A2F392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED06EFA4-BA48-4B9A-8CB8-EC2577A2F392}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9D6CB2C-7DFF-4442-8690-012356E63992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9D6CB2C-7DFF-4442-8690-012356E63992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D6CB2C-7DFF-4442-8690-012356E63992}.Release|Any CPU.ActiveCfg = Release|Any CPU
