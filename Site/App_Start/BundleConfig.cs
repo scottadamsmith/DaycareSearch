@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Site
+namespace DaycareSearch.Site
 {
     public class BundleConfig
     {

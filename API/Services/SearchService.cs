@@ -1,4 +1,4 @@
-﻿using API.Models;
+﻿using DaycareSearch.API.Models;
 using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace API.Services
+namespace DaycareSearch.API.Services
 {
     public static class SearchService
     {

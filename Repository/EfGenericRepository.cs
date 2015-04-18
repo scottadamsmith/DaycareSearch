@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DaycareSearch.Repository.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -6,13 +7,13 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace DaycareSearch.Repository
 {
     public class EfGenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly DbSet<T> _dbSet;
+        public readonly IDbSet<T> _dbSet;
 
-        public EfGenericRepository(DbSet<T> dbSet)
+        public EfGenericRepository(IDbSet<T> dbSet)
         {
             _dbSet = dbSet;
         }
@@ -45,6 +46,11 @@ namespace Repository
         public T First(Expression<Func<T, bool>> predicate)
         {
             return _dbSet.First<T>(predicate);
+        }
+
+        public T FirstOrDefault(Expression<Func<T, bool>> predicate)
+        {
+            return _dbSet.FirstOrDefault(predicate);
         }
 
         public T GetById(int id)

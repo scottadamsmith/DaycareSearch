@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
-namespace API.Models
+namespace DaycareSearch.API.Models
 {
     public enum OpeningOptions
     {

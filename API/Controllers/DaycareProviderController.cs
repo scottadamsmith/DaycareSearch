@@ -1,5 +1,5 @@
-﻿using API.Models;
-using API.Services;
+﻿using DaycareSearch.API.Models;
+using DaycareSearch.API.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,10 +9,10 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
-using Model = API.Models;
+using Model = DaycareSearch.API.Models;
 using System.Web;
 
-namespace API.Controllers
+namespace DaycareSearch.API.Controllers
 {
     public class DaycareProviderController : ApiController
     {

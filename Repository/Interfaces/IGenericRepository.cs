@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace DaycareSearch.Repository.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {
@@ -16,6 +16,7 @@ namespace Repository
         T Single(Expression<Func<T, bool>> predicate);
         T SingleOrDefault(Expression<Func<T, bool>> predicate);
         T First(Expression<Func<T, bool>> predicate);
+        T FirstOrDefault(Expression<Func<T, bool>> predicate);
         T GetById(int id);
 
         void Add(T entity);

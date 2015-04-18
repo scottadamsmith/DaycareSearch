@@ -1,4 +1,4 @@
-namespace Data
+namespace DaycareSearch.Data
 {
     using System;
     using System.Data.Entity;

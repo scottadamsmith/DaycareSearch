@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace API.Models
+namespace DaycareSearch.API.Models
 {
     public class DaycareProvider
     {
